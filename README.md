@@ -6,15 +6,26 @@ The retail business has customer transaction data but needs a clearer understand
 
 The objective of this analysis is to convert customer transaction data into actionable insights that support decisions around customer retention, category investment, promotional strategy, and subscription performance.
 
-## Dataset
+## Recommendations
 
-The project uses a retail customer behaviour dataset covering customer, transaction, product, promotion, subscription, shipping, demographic, location, and review attributes.
+Executive Slides: https://drive.google.com/file/d/1YMte6y4ygpG2O0ZdzEV9VcUF3eYb-zfF/view?usp=drive_link
+Video: https://www.youtube.com/watch?v=njtTvqax1Q8
 
-Key fields include:
+### 1. Improve second purchase conversion
 
-`customer_id`, `age`, `age_group`, `gender`, `location`, `category`, `item_purchased`, `purchase_amount`, `previous_purchases`, `subscription_status`, `discount_applied`, `promo_code_used`, `payment_method`, `shipping_type`, `season`, `review_rating`, `frequency_of_purchases`, and `purchase_frequency_days`.
+Focus on converting New customers into Returning customers through targeted post purchase communication, personalised recommendations, and follow up campaigns.
 
-The analysis covers approximately **3.90K customer records**.
+### 2. Protect high performing categories
+
+Prioritise inventory availability, merchandising, and marketing investment for Clothing and Accessories.
+
+### 3. Apply discounts selectively
+
+Use promotions for defined objectives such as acquisition or reactivation rather than broad discounting, as the observed data does not show a higher average purchase value from discounts.
+
+### 4. Evaluate subscription performance beyond average purchase
+
+Assess subscription value using purchase frequency, retention, repeat purchase behaviour, and customer lifetime value.
 
 ## Power BI Dashboard
 
@@ -131,25 +142,15 @@ The observed data does not show higher average purchase value for subscribers.
 
 Young Adults generate the highest revenue at $62K, followed by Middle aged customers at $59K. Adults and Seniors each generate $56K.
 
-## Business Recommendations
+## Dataset
 
-Executive Slides: https://drive.google.com/file/d/1YMte6y4ygpG2O0ZdzEV9VcUF3eYb-zfF/view?usp=drive_link
+The project uses a retail customer behaviour dataset covering customer, transaction, product, promotion, subscription, shipping, demographic, location, and review attributes.
 
-### 1. Improve second purchase conversion
+Key fields include:
 
-Focus on converting New customers into Returning customers through targeted post purchase communication, personalised recommendations, and follow up campaigns.
+`customer_id`, `age`, `age_group`, `gender`, `location`, `category`, `item_purchased`, `purchase_amount`, `previous_purchases`, `subscription_status`, `discount_applied`, `promo_code_used`, `payment_method`, `shipping_type`, `season`, `review_rating`, `frequency_of_purchases`, and `purchase_frequency_days`.
 
-### 2. Protect high performing categories
-
-Prioritise inventory availability, merchandising, and marketing investment for Clothing and Accessories.
-
-### 3. Apply discounts selectively
-
-Use promotions for defined objectives such as acquisition or reactivation rather than broad discounting, as the observed data does not show a higher average purchase value from discounts.
-
-### 4. Evaluate subscription performance beyond average purchase
-
-Assess subscription value using purchase frequency, retention, repeat purchase behaviour, and customer lifetime value.
+The analysis covers approximately **3.90K customer records**.
 
 ## Tools Used
 
