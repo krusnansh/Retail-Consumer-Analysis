@@ -9,6 +9,7 @@ The objective of this analysis is to convert customer transaction data into acti
 ## Recommendations
 
 Executive Slides: https://drive.google.com/file/d/1YMte6y4ygpG2O0ZdzEV9VcUF3eYb-zfF/view?usp=drive_link
+
 Video: https://www.youtube.com/watch?v=njtTvqax1Q8
 
 ### 1. Improve second purchase conversion
